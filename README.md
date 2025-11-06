@@ -48,7 +48,7 @@ vercel
 # - Want to override settings? N
 ```
 
-## 🌐 Connect Your Domain (lifelog.app)
+## 🌐 Connect Your Domain (thelifelogapp.com)
 
 ### Step 1: Add Domain to Vercel
 
@@ -56,7 +56,7 @@ vercel
    - Go to your project (lifelog-website)
    - Click "Settings" tab
    - Click "Domains" in the left sidebar
-   - Enter `lifelog.app` and click "Add"
+   - Enter `thelifelogapp.com` and click "Add"
 
 2. **Vercel will show you DNS records**
    - You'll see something like:
@@ -67,7 +67,7 @@ vercel
 
 1. **Log into GoDaddy**
    - Go to [godaddy.com](https://godaddy.com)
-   - My Products → Domains → Click "Manage" next to lifelog.app
+   - My Products → Domains → Click "Manage" next to thelifelogapp.com
 
 2. **Update DNS Settings**
    - Click "DNS" or "Manage DNS"
@@ -75,14 +75,14 @@ vercel
 
 3. **Add Vercel Records**
 
-   **For the root domain (lifelog.app):**
+   **For the root domain (thelifelogapp.com):**
    - Click "Add Record"
    - Type: `A`
    - Name: `@`
    - Value: `76.76.21.21` (use the IP from Vercel)
    - TTL: 1 Hour
 
-   **For www subdomain (www.lifelog.app):**
+   **For www subdomain (www.thelifelogapp.com):**
    - Click "Add Record"
    - Type: `CNAME`
    - Name: `www`
@@ -97,7 +97,7 @@ vercel
 
 1. Go back to Vercel project → Settings → Domains
 2. You'll see "Valid Configuration" ✅ when DNS is working
-3. Your website is now live at `lifelog.app`!
+3. Your website is now live at `thelifelogapp.com`!
 
 ## 📝 Updating Your Website
 
@@ -134,8 +134,8 @@ Push to GitHub and connect Vercel for auto-deploy:
    - Replace with: `href="https://apps.apple.com/app/your-app-id"`
 
 2. **Email Contact** (index.html)
-   - Find: `support@lifelog.app`
-   - Replace with your actual email
+   - Find: `support@thelifelogapp.com`
+   - Replace with your actual email if different
 
 3. **Privacy & Terms Links** (index.html)
    - Add actual URLs when you have these pages
@@ -159,7 +159,7 @@ Push to GitHub and connect Vercel for auto-deploy:
 - Wait up to 1 hour for DNS propagation
 - Clear browser cache
 - Try in incognito/private mode
-- Check DNS with: `nslookup lifelog.app`
+- Check DNS with: `nslookup thelifelogapp.com`
 
 ### Changes not showing?
 - Hard refresh: Cmd+Shift+R (Mac) or Ctrl+Shift+R (Windows)
@@ -176,15 +176,15 @@ Push to GitHub and connect Vercel for auto-deploy:
 - Resize window to test responsiveness
 
 ### Mobile
-- Open on your phone: `lifelog.app`
+- Open on your phone: `thelifelogapp.com`
 - Test both portrait and landscape
 - Check all buttons and links work
 
 ## 🎉 You're Done!
 
 Your website should now be live at:
-- `lifelog.app`
-- `www.lifelog.app`
+- `thelifelogapp.com`
+- `www.thelifelogapp.com`
 - Your Vercel URL (backup)
 
 ## Need Help?

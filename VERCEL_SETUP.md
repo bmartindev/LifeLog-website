@@ -34,7 +34,7 @@
 After deployment (takes ~30 seconds):
 1. Click **"Go to Dashboard"**
 2. Go to **"Settings"** → **"Domains"**
-3. Add **`lifelog.app`**
+3. Add **`thelifelogapp.com`**
 4. Follow the DNS instructions (same as before in GoDaddy)
 
 ## 🎉 You're Now Set Up!
@@ -97,7 +97,7 @@ git push
 - Building = In progress (~45 seconds)
 
 ### View Live Site:
-- Production: https://lifelog.app (once DNS is set up)
+- Production: https://thelifelogapp.com (once DNS is set up)
 - Vercel URL: Check dashboard for .vercel.app link
 - GitHub: Click "Environments" → "Production" → "View deployment"
 
@@ -146,7 +146,7 @@ Edit `styles.css`:
 ## 📱 Your Website URLs
 
 - **GitHub Repository**: https://github.com/bmartindev/lifelog-website
-- **Production Domain**: https://lifelog.app (after DNS setup)
+- **Production Domain**: https://thelifelogapp.com (after DNS setup)
 - **Vercel Dashboard**: Visit vercel.com → Your projects
 
 ---
