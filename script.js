@@ -207,4 +207,4 @@ window.addEventListener('scroll', throttle(() => {
     // Scroll-based animations here
 }, 100));
 
-console.log('Logly website loaded successfully!');
+console.log('LifeLog website loaded successfully!');

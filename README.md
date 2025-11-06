@@ -1,4 +1,4 @@
-# Logly Landing Page - Deployment Guide
+# LifeLog Landing Page - Deployment Guide
 
 ## 🚀 Quick Deploy to Vercel
 
@@ -12,17 +12,17 @@
 2. **Deploy Your Website**
    - Click the "Add New..." button → Select "Project"
    - Choose "Deploy from Local" (or drag & drop option)
-   - Drag the entire `logly-website` folder onto the upload area
-   - OR click "Select Folder" and choose the `logly-website` folder
+   - Drag the entire `lifelog-website` folder onto the upload area
+   - OR click "Select Folder" and choose the `lifelog-website` folder
 
 3. **Configure Project**
-   - Project Name: `logly-website` (or leave default)
+   - Project Name: `lifelog-website` (or leave default)
    - Framework Preset: Select "Other" (it's just HTML/CSS/JS)
    - Click "Deploy"
 
 4. **Wait for Deployment**
    - Takes about 30 seconds
-   - You'll get a temporary URL like: `logly-website-abc123.vercel.app`
+   - You'll get a temporary URL like: `lifelog-website-abc123.vercel.app`
    - Click the URL to see your live website!
 
 ### Option 2: Deploy via Command Line
@@ -34,7 +34,7 @@ If you prefer using the terminal:
 npm i -g vercel
 
 # Navigate to your website folder
-cd /Users/brian/Projects/Logly/logly-website
+cd /Users/brian/Projects/LifeLog/lifelog-website
 
 # Deploy
 vercel
@@ -43,20 +43,20 @@ vercel
 # - Set up and deploy? Y
 # - Which scope? (select your account)
 # - Link to existing project? N
-# - Project name? logly-website
+# - Project name? lifelog-website
 # - Directory? ./ (current directory)
 # - Want to override settings? N
 ```
 
-## 🌐 Connect Your Domain (logly.app)
+## 🌐 Connect Your Domain (lifelog.app)
 
 ### Step 1: Add Domain to Vercel
 
 1. **In Vercel Dashboard**
-   - Go to your project (logly-website)
+   - Go to your project (lifelog-website)
    - Click "Settings" tab
    - Click "Domains" in the left sidebar
-   - Enter `logly.app` and click "Add"
+   - Enter `lifelog.app` and click "Add"
 
 2. **Vercel will show you DNS records**
    - You'll see something like:
@@ -67,7 +67,7 @@ vercel
 
 1. **Log into GoDaddy**
    - Go to [godaddy.com](https://godaddy.com)
-   - My Products → Domains → Click "Manage" next to logly.app
+   - My Products → Domains → Click "Manage" next to lifelog.app
 
 2. **Update DNS Settings**
    - Click "DNS" or "Manage DNS"
@@ -75,14 +75,14 @@ vercel
 
 3. **Add Vercel Records**
 
-   **For the root domain (logly.app):**
+   **For the root domain (lifelog.app):**
    - Click "Add Record"
    - Type: `A`
    - Name: `@`
    - Value: `76.76.21.21` (use the IP from Vercel)
    - TTL: 1 Hour
 
-   **For www subdomain (www.logly.app):**
+   **For www subdomain (www.lifelog.app):**
    - Click "Add Record"
    - Type: `CNAME`
    - Name: `www`
@@ -97,13 +97,13 @@ vercel
 
 1. Go back to Vercel project → Settings → Domains
 2. You'll see "Valid Configuration" ✅ when DNS is working
-3. Your website is now live at `logly.app`!
+3. Your website is now live at `lifelog.app`!
 
 ## 📝 Updating Your Website
 
 ### Quick Updates
 
-1. **Edit files locally** in the `logly-website` folder
+1. **Edit files locally** in the `lifelog-website` folder
 2. **Redeploy to Vercel:**
 
    **Option A: Drag & Drop**
@@ -113,7 +113,7 @@ vercel
 
    **Option B: Command Line**
    ```bash
-   cd /Users/brian/Projects/Logly/logly-website
+   cd /Users/brian/Projects/LifeLog/lifelog-website
    vercel --prod
    ```
 
@@ -134,7 +134,7 @@ Push to GitHub and connect Vercel for auto-deploy:
    - Replace with: `href="https://apps.apple.com/app/your-app-id"`
 
 2. **Email Contact** (index.html)
-   - Find: `support@logly.app`
+   - Find: `support@lifelog.app`
    - Replace with your actual email
 
 3. **Privacy & Terms Links** (index.html)
@@ -159,7 +159,7 @@ Push to GitHub and connect Vercel for auto-deploy:
 - Wait up to 1 hour for DNS propagation
 - Clear browser cache
 - Try in incognito/private mode
-- Check DNS with: `nslookup logly.app`
+- Check DNS with: `nslookup lifelog.app`
 
 ### Changes not showing?
 - Hard refresh: Cmd+Shift+R (Mac) or Ctrl+Shift+R (Windows)
@@ -176,15 +176,15 @@ Push to GitHub and connect Vercel for auto-deploy:
 - Resize window to test responsiveness
 
 ### Mobile
-- Open on your phone: `logly.app`
+- Open on your phone: `lifelog.app`
 - Test both portrait and landscape
 - Check all buttons and links work
 
 ## 🎉 You're Done!
 
 Your website should now be live at:
-- `logly.app`
-- `www.logly.app`
+- `lifelog.app`
+- `www.lifelog.app`
 - Your Vercel URL (backup)
 
 ## Need Help?
@@ -196,4 +196,4 @@ Your website should now be live at:
 ---
 
 **Last Updated**: January 2025
-**Created for**: Logly iOS App Landing Page
+**Created for**: LifeLog iOS App Landing Page
